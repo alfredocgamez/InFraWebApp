@@ -1,0 +1,53 @@
+
+    
+{% extends "layout.html" %}
+
+{% block content %}
+
+    <div class="jumbotron">
+
+        
+
+        <form class="form-inline">
+        <div class="form-group mb-2">
+            <label  class="sr-only">Acciones</label>
+            <input type="text" readonly class="form-control-plaintext" value="Acciones">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <label  class="sr-only">Buscar Acciones</label>
+            <input type="text" class="form-control" placeholder="Buscar Acciones">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Cargar</button>
+        </form>
+
+
+        <form class="form-inline">
+        <div class="form-group mb-2">
+            <label  class="sr-only">Eventos</label>
+            <input type="text" readonly class="form-control-plaintext" value="Eventos">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <label  class="sr-only">Buscar Eventos</label>
+            <input type="text" class="form-control" placeholder="Buscar Eventos">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Cargar</button>
+        </form>
+
+
+        <form class="form-inline">
+        <div class="form-group mb-2">
+            <label  class="sr-only">FCL</label>
+            <input type="text" readonly class="form-control-plaintext" value="FCL">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+            <label  class="sr-only">Buscar FCL</label>
+            <input type="text" class="form-control" placeholder="Buscar FCL">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Cargar</button>
+        </form>
+
+        
+    
+    
+
+{% endblock%}

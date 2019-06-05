@@ -1,0 +1,82 @@
+{% extends "layoutEval.html" %}
+
+{% block content %}
+<div class="jumbotron">
+        <form class="form-inline">
+            <div class="parent">
+                            <div class="child float-child-theory">
+
+                                    <div id="selectTheory" class="btn-group">
+                                        <h5 id="teoria">Emotion</h5>
+                                        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Selected Emotion
+                                        </button>
+                                        
+                                    </div> 
+                                    
+                                    
+
+                            </div>
+
+                            <div class="child float-child-terms">
+                                    <div id="selectTerm" class="btn-group">
+                                        <h5 id="terms">Intensity</h5>
+                                        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Selected Intensity
+                                        </button>
+                                    </div>  
+
+                            </div>
+                            <div class="child float-child-terms">
+                                    <div id="selectTerm" class="btn-group">
+                                        <h5 id="terms">MShip </h5>
+                                        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Selected Mship
+                                        </button>
+                                    </div>  
+
+                            </div>
+                            
+            </div>
+        </form>
+</br>
+        <form class="form-inline">
+            <div class="parent2">
+                            <div class="child float-child-theory">
+
+                                <div id="teoria" style="overflow-y:scroll; height:250px; width:200px; background:white" >
+                                </div>
+                                    
+                            </div>
+
+                            <div class="child float-child-terms">
+                                <div id="terms" style="overflow-y:scroll; height:250px; width:200px; background:white" >
+                                </div> 
+
+                            </div>
+                            <div class="child float-child-graphic">
+                                <div id="graphic" style="overflow-y:scroll; height:250px; width:250px; background:white" >
+                                </div>
+
+                            </div>
+            </div>
+        </form>
+
+</br>
+
+
+            <center>
+            <button type="button" class="btn btn-secondary">Load XML</button>
+            <button type="button" class="btn btn-secondary">Save Parameters</button>
+            <button type="button" class="btn btn-secondary">Save as XML</button>
+            </center>
+
+        
+
+
+
+
+</div>
+
+
+{% endblock%}

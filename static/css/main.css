@@ -1,0 +1,29 @@
+body {
+    background: slategray;
+}
+
+.float-child-theory{
+    float: left;
+}
+.float-child-terms{
+    float: left;
+}
+.float-child-graphic{
+    float: left;
+}
+#teoria{
+    margin-left: 100px;
+    margin-right: 10px;
+}
+#terms{
+    margin-left: 60px;
+    margin-right: 10px;
+}
+#graphic{
+    margin-left: 70px;
+    margin-right: 10px;
+}
+
+
+
+
